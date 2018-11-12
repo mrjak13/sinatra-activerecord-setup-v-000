@@ -1,5 +1,5 @@
 class CreateDogs < ActiveRecord::Migration
-  
+
   def up
     create_table :dogs |t| do
       t.string :name
@@ -10,6 +10,5 @@ class CreateDogs < ActiveRecord::Migration
   def down
     drop_table :dogs
   end
-  
-  
+
 end
